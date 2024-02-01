@@ -375,6 +375,7 @@ html {
     padding: 30px 0 30px 0;
 }
 
+
 .section-1 .div1 h1 {
 
   color: #fff;
@@ -515,8 +516,23 @@ html {
   background-color: #142037;
   display: flex;
   justify-content: center;
-  margin-top: -15px;
+  /* margin-top: -15px; */
+  background-image: url(./Images/track.png);
+  background-position: center;
+  background-size: cover;
+  padding: 400px 0 400px 0;
+  position: relative;
 }
+
+.stick{
+  position: sticky;
+  bottom: 20px;
+
+}
+/* .section-2 img{
+  position: sticky;
+  bottom: 20px;
+} */
 
 
 /* <!-- /////////////////////// Process Completed ///////////////////////////////// --> */
@@ -537,7 +553,12 @@ html {
   padding-bottom: 84px;
 }
 
-.Head-featured h1 {
+.Head-featured h1{
+  margin: auto;
+  width: 37%;
+  background-image: url(./Images/bg.png);
+  background-repeat: no-repeat;
+  background-size: 60px;
   color: #000068;
   text-align: center;
   font-family: "DM Sans", sans-serif;
