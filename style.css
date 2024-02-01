@@ -275,6 +275,16 @@ html {
 
 }
 
+.car-image{
+  cursor: pointer;
+
+}
+
+.car-image img:hover {
+  transition: 2s;
+  transform: translateX(-1300px);
+}
+
 
 .main-zip {
   width: 100%;
@@ -512,15 +522,14 @@ html {
 }
 
 .section-2 {
-  width: 10%;
+  width: 8%;
   background-color: #142037;
   display: flex;
   justify-content: center;
-  /* margin-top: -15px; */
   background-image: url(./Images/track.png);
   background-position: center;
   background-size: cover;
-  height: 1078px;
+  height: 1077px;
   position: relative;
 }
 
@@ -927,7 +936,6 @@ form{
 .subscribe-image {
   margin-top: -120px;
 }
-
 
 .subscribe-content p {
   color: #fff;
